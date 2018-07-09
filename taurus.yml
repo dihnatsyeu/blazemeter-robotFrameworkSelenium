@@ -1,0 +1,10 @@
+execution:
+- executor: selenium
+  runner: robot
+  hold-for: 1m
+  scenario:
+    script: search_flights/
+
+reporting:
+  - final-stats
+  - blazemeter
